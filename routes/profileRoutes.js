@@ -2,9 +2,9 @@ function test(app) {
     var mysql = require('mysql');
     var connection = mysql.createConnection({
         host: 'localhost',
-        user: 'root',
-        password: 'Kamla@123321',
-        database: 'akashdev'
+        user: '---',
+        password: '---',
+        database: '----'
     });
 
     var path = require('path');
